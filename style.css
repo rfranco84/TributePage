@@ -1,0 +1,56 @@
+* {
+  font-family:Lucida, Lucida Grande, Helvetica, Arial;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  color: #262626;
+  background: silver;
+  
+}
+
+#title {
+  text-align: center;
+  background: silver;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+#image {
+  max-width:50%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px black;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+li {
+  padding-top: 1.5em;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+#quote-Par {
+  align-self:center;
+  font-style: italic;
+}
+
+footer {
+  padding-left: 25%;
+}
